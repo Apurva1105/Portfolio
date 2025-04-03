@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar {
+    background-color: rgb(193, 184, 184);
+    width: 300px;
+    height: 100vh;
+    font-family: "Raleway", serif;
+}
+.sidebar nav{
+    padding: 45px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+}
+.sidebar nav li a{
+   text-decoration: none;
+   color: black;
+
+}
+.main{
+    /* background-color: darkkhaki; */
+    width: 90vw;
+}
+.container{
+    display: flex;
+}
+.infoContainer{
+    /* background-color: bisque; */
+    height: 58vh;
+    width: 80vw;
+    margin: 125px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:200;
+    font-style: normal;
+}
+
+.hello{
+    font-size: 65px;
+}
+.name{
+    font-size: 50px;
+    font-weight: 700;
+    font-family: "Raleway", serif;
+}
+.about{
+    font-size: 40px;
+    font-family: "Raleway", serif;
+}
+.more{
+    font-size: 20px;
+    font-family: "Raleway", serif;
+}
+.buttons{
+    margin-top: 25px;
+}
+.buttons button{
+    border-radius: 22px;
+    font-size: 15px;
+    font-family: "Raleway", serif;
+    margin-right: 10px;
+    margin-top: 25px;
+    padding: 10px;
+    color: white;
+    background-color: darkolivegreen;
+    cursor: pointer;
+}
+.buttons button:hover{
+    background-color: white;
+    color: darkolivegreen;
+}
+
+.devPic img{
+    width: 40vh;
+    
+}
+.contactform{
+    margin-top: 150px;
+    margin-bottom: 50px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #ccc;
+}
+.contactform h1{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align: center;
+}
+#help {
+    font-size: 15px;
+    font-weight: 100;
+    margin-bottom: 20px;
+    text-align:auto;
+    color: lightsteelblue;
+}
+/* .contactform input[type="text"], .contactform input[type="email"], .contactform textarea{
+    width: 50%;
+    height: 10px;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+} */
+.contactform input[type="submit"]{
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #333;
+    color: darkolivegreen;
+    cursor: pointer;
+}
+.contactform input[type="submit"]:hover{
+    background-color: #444;
+}
+.blogitem{
+ margin: 20px;  
+ font-family: "Raleway", serif;
+}
+ h1{
+    font-family: "Raleway", sans-serif;
+    margin: 23px;
+    color: cadetblue;
+    animation: moveText 2s infinite;
+}
+ .p{
+    font-family: "Raleway", sans-serif;
+}
+@keyframes moveText {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(20px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+.blogitem button{
+    border-radius: 10px;
+    font-size: 10px;
+    font-family: "Raleway", serif;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding: 5px;
+    color: white;
+    background-color: slategray;
+    cursor: pointer;
+}
+.intro h2{
+    font-size: 30px;
+    font-family: "Raleway", sans-serif;
+    margin: 20px;
+    color: darkolivegreen;
+
+}
+.intro p{
+    font-size: 20px;
+    font-family: "Raleway", sans-serif;
+    margin: 20px;
+}
+.skillcontainer{
+    padding: 12px;
+}
+.skill{
+    height: 10px;
+    width: 265px;
+    background-color: red;
+    border: 2px solid black;
+}
+.skillItem{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+}
+.hundred{
+    width: 256px;
+    background-color: green;
+}
+.eighty{
+    width: 200 px;
+    background-color:yellowgreen;
+}
+.sixty{
+    width: 180px;
+    background-color: orange;
+}
+.forty{
+    width: 140px;
+    background-color: rgb(182, 67, 44);
+}
+.experience{
+    margin: 10px;
+    display: flex;
+    margin: 5px;
+    font-family: "Raleway", sans-serif;
+}
+.experience h3{
+    font-size: 20px;
+    color: gray;
+    margin: 5px;
+    font-family:"Raleway", sans-serif ;
+}
